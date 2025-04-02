@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community First - We Love All People</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+       
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .navbar {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: var(--secondary-color);
+        }
+        
+        .nav-link {
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url("2.jpeg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 150px 0;
+            text-align: center;
+        }
+        
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--secondary-color);
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        
+        .love-section {
+            padding: 100px 0;
+            background-color: var(--light-color);
+        }
+        
+        .love-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+        
+        .love-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .love-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .love-heading {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+        
+        .core-values {
+            padding: 100px 0;
+        }
+        
+        .value-item {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .value-icon {
+            font-size: 2rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">CommunityFirst</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary" href="#">Join Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Building Stronger Communities Together</h1>
+            <p class="hero-subtitle">Join us in creating positive change for people from all walks of life</p>
+            <a href="#" class="btn btn-primary btn-lg">Donate Now</a>
+        </div>
+    </section>
+    <section class="love-section">
+        <div class="container">
+            <h2 class="section-title">WE LOVE ALL PEOPLE</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="love-card">
+                        <div class="love-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h3 class="love-heading">Inclusive Programs</h3>
+                        <p>We design programs that welcome everyone regardless of background, age, or ability.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="love-card">
+                        <div class="love-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3 class="love-heading">Community Support</h3>
+                        <p>Our network provides essential support to those who need it most in our communities.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="love-card">
+                        <div class="love-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <h3 class="love-heading">Global Perspective</h3>
+                        <p>We learn from and collaborate with communities around the world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="core-values">
+        <div class="container">
+            <h2 class="section-title">What We Are Doing Now</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Housing Initiatives</h3>
+                        <p>Creating affordable housing solutions for families in need.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Food Security</h3>
+                        <p>Operating community kitchens and food distribution programs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>Providing free tutoring and skills training programs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-hand-holding-medical"></i>
+                        </div>
+                        <h3>Health Services</h3>
+                        <p>Offering free health screenings and wellness programs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="love-section bg-white">
+        <div class="container">
+            <h2 class="section-title">Our Core Values</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="love-card">
+                        <div class="love-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="love-heading">Compassion</h3>
+                        <p>We approach every person and situation with empathy and understanding.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="love-card">
+                        <div class="love-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="love-heading">Inclusion</h3>
+                        <p>Everyone is welcome and valued in our community.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="love-card">
+                        <div class="love-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="love-heading">Integrity</h3>
+                        <p>We are transparent and accountable in all our actions.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="love-card">
+                        <div class="love-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="love-heading">Collaboration</h3>
+                        <p>We believe in the power of working together.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="love-card">
+                        <div class="love-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="love-heading">Innovation</h3>
+                        <p>We constantly seek creative solutions to community challenges.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="love-card">
+                        <div class="love-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="love-heading">Sustainability</h3>
+                        <p>Our programs are designed for long-term impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+                                                                                                                </html>
